@@ -1,0 +1,26 @@
+/* FitTrackr CSS code */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff67cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .chart-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  @media (max-width: 600px) {
+    .chart-container {
+      width: 100%;
+    }
+  }
+  
